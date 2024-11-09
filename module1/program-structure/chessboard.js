@@ -1,7 +1,7 @@
 // 1st code 
 let oddRow = "", evenRow = "", board = "";
 
-// logic for the 1st, 3rd, 5th and 7th row; 
+// logic for the 1st, 3rd, 5th and 7th row.
 for (let i = 0; i < 8; i++) {
     if (i % 2 == 0) {
         oddRow += " ";
@@ -10,7 +10,7 @@ for (let i = 0; i < 8; i++) {
     }
 }
 
-// logic for the 2nd, 4th, 6th, 8th
+// logic for the 2nd, 4th, 6th, 8th row.
 for (let j = 0; j < 8; j++) {
     if (j % 2 == 0) {
         evenRow += "#"
